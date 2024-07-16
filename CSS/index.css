@@ -12,3 +12,30 @@
     --text-color:#FFFFFF;
     --button-color:#e7d8ea;
 }
+
+/* logo styles */
+
+#logo{
+    width: 240px;
+    height: 80px;
+    border-radius: 16px;
+}
+
+@media screen and (min-width:768px) {
+    #logo{
+        width: 320px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:992px){
+    #logo{
+        margin-top: 2rem;
+    }
+}
+
+.footer{
+    background-image:linear-gradient(135deg,#e75480,#800080);
+    color: var(--text-color);
+    padding: 1rem 0.5rem;
+}
