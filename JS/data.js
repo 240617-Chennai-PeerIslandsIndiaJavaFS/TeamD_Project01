@@ -83,106 +83,104 @@ export let Clients = [
 ]
 export let  Users = [
     {
-        user_id: 1,
-        user_name: "Alice Johnson",
-        user_role: "Developer",
-        email: "alice.johnson@example.com",
-        password: "password123",
-        phone: "111-222-3333",
-        manager_id: 3,
-        status: "active"
+      "user_id": 1,
+      "user_name": "Alice Johnson",
+      "user_role": "Manager", 
+      "email": "alice.johnson@example.com",
+      "password": "password123",
+      "phone": "111-222-3333",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 2,
-        user_name: "Bob Brown",
-        user_role: "Designer",
-        email: "bob.brown@example.com",
-        password: "password123",
-        phone: "444-555-6666",
-        manager_id: 3,
-        status: "active"
+      "user_id": 2,
+      "user_name": "Bob Brown",
+      "user_role": "Admin",
+      "email": "bob.brown@example.com",
+      "password": "password123",
+      "phone": "444-555-6666",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 3,
-        user_name: "Eve Davis",
-        user_role: "Manager",
-        email: "eve.davis@example.com",
-        password: "password123",
-        phone: "777-888-9999",
-        manager_id: null,
-        status: "active"
+      "user_id": 3,
+      "user_name": "Eve Davis",
+      "user_role": "Manager",
+      "email": "manager@gmail.com",
+      "password": "password123",
+      "phone": "777-888-9999",
+      "manager_id": null,
+      "status": "active"
     },
     {
-        user_id: 4,
-        user_name: "Charlie Green",
-        user_role: "Tester",
-        email: "charlie.green@example.com",
-        password: "password123",
-        phone: "555-666-7777",
-        manager_id: 3,
-        status: "active"
+      "user_id": 4,
+      "user_role": "Associate", 
+      "user_name": "Charlie Green",
+      "email": "charlie.green@example.com",
+      "password": "password123",
+      "phone": "555-666-7777",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 5,
-        user_name: "Diana Blue",
-        user_role: "Support",
-        email: "diana.blue@example.com",
-        password: "password123",
-        phone: "888-999-0000",
-        manager_id: 3,
-        status: "active"
+      "user_id": 5,
+      "user_role": "Associate",  
+      "user_name": "Diana Blue",
+      "email": "diana.blue@example.com",
+      "password": "password123",
+      "phone": "888-999-0000",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 6,
-        user_name: "Ethan Black",
-        user_role: "Developer",
-        email: "ethan.black@example.com",
-        password: "password123",
-        phone: "222-333-4444",
-        manager_id: 3,
-        status: "active"
+      "user_id": 6,
+      "user_role": "Manager",
+      "email": "ethan.black@example.com",
+      "password": "password123",
+      "phone": "222-333-4444",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 7,
-        user_name: "Fiona White",
-        user_role: "Designer",
-        email: "fiona.white@example.com",
-        password: "password123",
-        phone: "555-666-7777",
-        manager_id: 3,
-        status: "active"
+      "user_id": 7,
+      "user_role": "Admin",
+      "email": "admin@gmail.com",
+      "password": "password123",
+      "phone": "555-666-7777",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 8,
-        user_name: "George Brown",
-        user_role: "Manager",
-        email: "george.brown@example.com",
-        password: "password123",
-        phone: "444-555-6666",
-        manager_id: null,
-        status: "active"
+      "user_id": 8,
+      "user_role": "Associate",  // New role "Admin"
+      "user_name": "George Brown",
+      "email": "george.brown@example.com",
+      "password": "password123",
+      "phone": "444-555-6666",
+      "manager_id": null,
+      "status": "active"
     },
     {
-        user_id: 9,
-        user_name: "Hannah Gray",
-        user_role: "Developer",
-        email: "hannah.gray@example.com",
-        password: "password123",
-        phone: "111-222-3333",
-        manager_id: 3,
-        status: "active"
+      "user_id": 9,
+      "user_role": "Associate",
+      "email": "hannah.gray@example.com",
+      "password": "password123",
+      "phone": "111-222-3333",
+      "manager_id": 3,
+      "status": "active"
     },
     {
-        user_id: 10,
-        user_name: "Ivy Pink",
-        user_role: "Support",
-        email: "ivy.pink@example.com",
-        password: "password123",
-        phone: "222-333-4444",
-        manager_id: 3,
-        status: "active"
-    }
-]
+      "user_id": 10,
+      "user_role": "Associate",
+      "email": "associate@gmail.com",
+      "password": "password123",
+      "phone": "222-333-4444",
+      "manager_id": 3,
+      "status": "active"
+    },
+    
+  ]
+  
 export let Milestones = [
     { milestone_id: 1, status: "In queue" },
     { milestone_id: 2, status: "Commenced" },
@@ -293,6 +291,7 @@ export let Projects = [
         end_date: "2024-12-31",
         manager_id: 3
     }
+
 ]
 export let tasks = [
 {
