@@ -513,7 +513,7 @@ export let Messages =  [
         subject: "Product Launch Plan",
         message: "Share the product launch plan.",
         sender_id: 3,
-        receiver_id: 10
+        receiver_id: 7
     },
     {
         message_id: 9,
